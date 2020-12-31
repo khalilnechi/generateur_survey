@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Logo{
+  height: 5vmin;
+  width:8vmin;
+}
+.TextField_Creation_survey{
+  width: 80vmin;
+  margin : 10px;
+}
+.spanQuestion{
+  padding: 5px;
+}
+.BoxRadio{
+  background-Color:#84817a;
+  padding: 7px;
+  border-Radius: 10px;
+  display:"inline"
+}
+.btn{
+  background-Color:rgba(195, 87, 68, 0.027);
+  border-Radius: 5px;
+  margin: 10px;
+  color:rgba(51, 119, 207, 1);
+  font-size: 18px;
+  border-color: rgba(51, 119, 207, 1);
+  font-family:Roboto
+}
+.btn:hover{
+  background-Color:rgb(51, 119, 207);
+  color:white;
+  border-color: rgb(51, 119, 207);
+  font-size: 18px;
+  margin: 10px;
+  font-family:"Helvetica"
+
+}
+.StatutDiv{
+  position: absolute;
+  right: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  font-weight: fontWeightLight;
+  font-size: 18px;
+  font-family: Roboto;
+}
+.ReponseDiv{
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 10px;
+  margin: 30px;
+  font-size: 18px;
+}
